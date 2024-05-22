@@ -42,21 +42,22 @@ public class stamina : MonoBehaviour
         else
         {
             fps.canRun = false;      
-        }
+        } 
         //Debug.Log(staminaSlider.value);
     }
 
 
     private void DecreaseEnergy()
     {
-        if (stamin != 0)
+        if (stamin != 0 && stamin >= 0)
             stamin -= dValue * Time.deltaTime;
     }
 
     private void IncreaseEnergy()
     {
-        if (stamin != 0)
+        if (stamin != 0 && stamin <= 100)
             stamin += dValue * Time.deltaTime;
+        
     }
 
 }

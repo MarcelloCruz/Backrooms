@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\backrooms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\stamina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\stamina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stamina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\playerscene2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscene2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "portal.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\portal.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\portal.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\portal.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\portal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:09:13.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerScene2.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\PlayerScene2.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\PlayerScene2.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\PlayerScene2.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\PlayerScene2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:22:57.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "player.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\player.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\player.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\player.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\player.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAYwDAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T11:09:11.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "stamina.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\stamina.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\stamina.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\stamina.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\stamina.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAcwCwAAAAJAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T08:41:19.96Z",
               "EditorCaption": ""
