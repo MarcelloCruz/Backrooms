@@ -18,10 +18,19 @@ public class PlayerScene2 : MonoBehaviour
     public bool vf = false;
     public GameObject cardOn;
     public GameObject portal;
+    public GameObject leverOn;
+    public GameObject leverOff;
+    public bool lever = false;
+    public GameObject powerOn;
+    public GameObject jumpScare;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+    //public GameObject generatorOn;
 
 
 
-   
+
+
     void Start()
     {
         playerController = gameObject.GetComponent<FirstPersonController>();
@@ -30,17 +39,14 @@ public class PlayerScene2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (health <= 0)
+        if (health <= 0)
         {
             //Debug.Log("mort");
             JumpScare();
             StartCoroutine(TimeOnScreen());
-        }*/
+        }
 
-        /*if (canActivate == false)
-        {
-            StartCoroutine(Cooldown());
-        }*/
+       
 
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
@@ -54,10 +60,25 @@ public class PlayerScene2 : MonoBehaviour
                 
             }
 
+            if (hit.transform.gameObject.tag.Equals("lever") && Input.GetKeyDown(KeyCode.E))
+            {
+                leverOn.SetActive(true);
+                leverOff.SetActive(false);
+                lever = true;
+                
+            }
+            if (lever)
+            {
+                PowerOn();
+            }
+            
+
             if (hit.transform.gameObject.tag.Equals("cardreader") && Input.GetKeyDown(KeyCode.E))
             {
                 if (vf)
                 {
+                    lever = false;
+                    PowerOff();
                     CardOn();
                     portal.SetActive(true);
                 }
@@ -83,14 +104,47 @@ public class PlayerScene2 : MonoBehaviour
         cardOn.SetActive(true);
     }
 
+    public void PowerOn()
+    {
+        powerOn.SetActive(true);
+    }
+
+    public void PowerOff()
+    {
+        powerOn.SetActive(false);
+    }
+
+    public void JumpScare()
+    {
+        jumpScare.SetActive(true);
+        audioSource.PlayOneShot(audioClip);
+        StartCoroutine(TimeOnScreen2());
+        
 
 
-   
+    }
 
-   
+    IEnumerator TimeOnScreen()
+    {
+        yield return new WaitForSeconds(1.2f);
+        SceneManager.LoadScene("GameOver");
+    }
+
+    IEnumerator TimeOnScreen2()
+    {
+        yield return new WaitForSeconds(1.2f);
+        jumpScare.SetActive(false);
+    }
 
 
-   
+    
+
+
+
+
+
+
+
 
 
 

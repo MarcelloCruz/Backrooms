@@ -10,9 +10,11 @@ public class monster : MonoBehaviour
     public GameObject player;
     private NavMeshAgent agent;
     public float timer;
+    public float timer2;
     public float soundtimer = 10;
     private Animator anim;
     public player playerScript;
+    public GameObject damage;
    // public AudioSource audioSource1;
 
     //public AudioClip a1;
@@ -41,6 +43,9 @@ public class monster : MonoBehaviour
             anim.SetBool("attack", true);
             timer = 0;
             playerScript.health -= 35;
+            Damage();
+                       
+
         }
 
         /*if (agent.remainingDistance < 40 && agent.remainingDistance > 0 && soundtimer > 5)
@@ -72,4 +77,17 @@ public class monster : MonoBehaviour
         }
         else canFollow = false;*/
     }
+
+    public void Damage()
+    {
+        damage.SetActive(true);
+        StartCoroutine(Cooldown());
+    }
+    IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(timer2);
+        damage.SetActive(false);
+    }
+
+    
 }

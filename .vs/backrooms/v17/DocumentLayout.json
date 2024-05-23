@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\backrooms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\portal2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\jumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\playerscene2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +15,28 @@
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\jumpscare2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpscare2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monster2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monster2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\portal2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monsterpause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,19 +62,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Portal2.cs",
-              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\Portal2.cs",
-              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Portal2.cs",
-              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\Portal2.cs",
-              "RelativeToolTip": "Assets\\SCRIPTS\\Portal2.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBcAAAAwAAAA",
+              "DocumentIndex": 3,
+              "Title": "JumpScare2.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\JumpScare2.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\JumpScare2.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\JumpScare2.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\JumpScare2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T09:00:46.932Z",
+              "WhenOpened": "2024-05-23T13:35:08.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JumpScare.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\JumpScare.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\JumpScare.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\JumpScare.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\JumpScare.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:32:17.347Z",
               "EditorCaption": ""
             },
             {
@@ -77,14 +98,25 @@
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Monster2.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\Monster2.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\Monster2.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAsAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T07:29:47.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T07:29:47.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "Portal2.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\Portal2.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Portal2.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\Portal2.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\Portal2.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:00:46.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MonsterPause.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\MonsterPause.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\MonsterPause.cs",
@@ -96,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "gameover.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\gameover.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\gameover.cs",
@@ -108,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "PauseGame.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\PauseGame.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\PauseGame.cs",
@@ -120,19 +152,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "monster.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\monster.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\monster.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\monster.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\monster.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwEkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T20:10:50.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PauseController.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\PauseController.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\PauseController.cs",
@@ -140,12 +172,11 @@
               "RelativeToolTip": "Assets\\SCRIPTS\\PauseController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T20:05:34.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T20:05:34.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "portal.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\portal.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\portal.cs",
@@ -153,38 +184,37 @@
               "RelativeToolTip": "Assets\\SCRIPTS\\portal.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwBkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T13:09:13.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T13:09:13.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerScene2.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\PlayerScene2.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\PlayerScene2.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\PlayerScene2.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\PlayerScene2.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwD0AAAArAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAcwDAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T11:22:57.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "player.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\player.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\player.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\player.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\player.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAYwEIAAAAQAAAA",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAgwJgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T11:09:11.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "stamina.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\stamina.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\stamina.cs",

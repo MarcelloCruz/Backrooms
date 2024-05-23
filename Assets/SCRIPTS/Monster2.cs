@@ -12,6 +12,8 @@ public class Monster2 : MonoBehaviour
     public float soundtimer = 10;
     private Animator anim;
     public PlayerScene2 playerScript;
+    public GameObject damage;
+    public float timer2;
     // public AudioSource audioSource1;
 
     //public AudioClip a1;
@@ -40,6 +42,7 @@ public class Monster2 : MonoBehaviour
             anim.SetBool("attack", true);
             timer = 0;
             playerScript.health -= 35;
+            Damage();
         }
 
         /*if (agent.remainingDistance < 40 && agent.remainingDistance > 0 && soundtimer > 5)
@@ -70,5 +73,16 @@ public class Monster2 : MonoBehaviour
             canFollow = true;
         }
         else canFollow = false;*/
+    }
+
+    public void Damage()
+    {
+        damage.SetActive(true);
+        StartCoroutine(Cooldown());
+    }
+    IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(timer2);
+        damage.SetActive(false);
     }
 }

@@ -370,6 +370,7 @@
 "Assets/SCRIPTS/gameover.cs"
 "Assets/SCRIPTS/GenerateEnemies.cs"
 "Assets/SCRIPTS/JumpScare.cs"
+"Assets/SCRIPTS/JumpScare2.cs"
 "Assets/SCRIPTS/menu.cs"
 "Assets/SCRIPTS/monster.cs"
 "Assets/SCRIPTS/Monster2.cs"

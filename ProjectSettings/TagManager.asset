@@ -8,6 +8,7 @@ TagManager:
   - button
   - card
   - cardreader
+  - lever
   layers:
   - Default
   - TransparentFX
