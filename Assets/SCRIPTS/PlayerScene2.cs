@@ -11,12 +11,17 @@ public class PlayerScene2 : MonoBehaviour
 {
     public GameObject crosshair;
     FirstPersonController playerController;
-    
-    
-    
+    public float health;
+    public Slider healthSlider;
+    public GameObject cardReader;
+    public GameObject card;
+    public bool vf = false;
+    public GameObject cardOn;
+    public GameObject portal;
 
-    // public Animator anim;
-    // Start is called before the first frame update
+
+
+   
     void Start()
     {
         playerController = gameObject.GetComponent<FirstPersonController>();
@@ -42,7 +47,23 @@ public class PlayerScene2 : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, 4))
         {
-            //KEY
+            if (hit.transform.gameObject.tag.Equals("card") && Input.GetKeyDown(KeyCode.E))
+            {
+                vf = true;
+                Destroy(hit.transform.gameObject);
+                
+            }
+
+            if (hit.transform.gameObject.tag.Equals("cardreader") && Input.GetKeyDown(KeyCode.E))
+            {
+                if (vf)
+                {
+                    CardOn();
+                    portal.SetActive(true);
+                }
+                
+
+            }
 
 
         }
@@ -55,6 +76,11 @@ public class PlayerScene2 : MonoBehaviour
         {
             playerController.m_IsWalking;
         }*/
+    }
+
+    public void CardOn()
+    {
+        cardOn.SetActive(true);
     }
 
 

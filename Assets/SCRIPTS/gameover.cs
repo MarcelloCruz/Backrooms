@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class gameover : MonoBehaviour
 {
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,5 +23,6 @@ public class gameover : MonoBehaviour
     public void RestartGame () 
     {
         SceneManager.LoadScene("SampleScene");
+        
     }
 }
