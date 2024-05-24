@@ -20721,7 +20721,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 673cc8ba3735cf84f89f2e79f632838f, type: 2}
+  - {fileID: 2100000, guid: adccdd502710663499d87b27ed1021dc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22895,8 +22895,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
@@ -26674,8 +26672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
@@ -27401,8 +27397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
@@ -28999,8 +28993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
@@ -36443,7 +36435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1308577958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36456,8 +36448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
@@ -53037,8 +53027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
@@ -56005,8 +55993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a21933c9f1d25648ae6535ee52c0e98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioClip: {fileID: 0}
   jumpScare: {fileID: 0}
   playerScript: {fileID: 455279047}
   canActivate: 1
