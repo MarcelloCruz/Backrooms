@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseGame : MonoBehaviour
 {
+    public GameObject quit;
     //public PauseController pausescript;
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,11 @@ public class PauseGame : MonoBehaviour
         SceneManager.LoadScene("Start");
     }
 
-   
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }
+
 
 
 }

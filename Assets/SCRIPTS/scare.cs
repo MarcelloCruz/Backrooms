@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class JumpScare : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public AudioClip audioClip;
+    //public AudioSource audioSource;
+    //public AudioClip audioClip;
     public GameObject jumpScare;
     public player playerScript;
     public bool canActivate = true; 

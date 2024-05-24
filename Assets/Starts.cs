@@ -22,4 +22,9 @@ public class Starts : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void OnApplicationQuit()
+    {
+        Application.Quit();
+    }
 }

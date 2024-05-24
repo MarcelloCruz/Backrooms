@@ -94,8 +94,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   timer: 0
+  timer2: 0
   soundtimer: 10
   playerScript: {fileID: 0}
+  damage: {fileID: 0}
 --- !u!82 &5572988216300571011
 AudioSource:
   m_ObjectHideFlags: 0
@@ -211,8 +213,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8794129, y: 4.0571465, z: 1.6280609}
-  m_Center: {x: -0.052248906, y: 1.528574, z: 0.12133186}
+  m_Size: {x: 1.1489019, y: 4.0571465, z: 1.6280609}
+  m_Center: {x: -0.063549876, y: 1.528574, z: 0.12133186}
 --- !u!1001 &8325905561092392038
 PrefabInstance:
   m_ObjectHideFlags: 0

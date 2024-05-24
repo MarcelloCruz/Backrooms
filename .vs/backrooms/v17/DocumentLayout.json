@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\backrooms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\jumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\scare2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scare2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|d:\\backrooms\\assets\\scripts\\scare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\playerscene2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +23,32 @@
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpscare2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\starts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\starts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\pausegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\jumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jumpscare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monster2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +59,8 @@
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\monsterpause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsterpause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\pausegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19A40119-2B9D-FB82-173C-EF592D82957C}|Assembly-CSharp.csproj|D:\\backrooms\\assets\\scripts\\stamina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +78,45 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "scare.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\scare.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\scare.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\scare.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\scare.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:34:24.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scare2.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\Scare2.cs",
+              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Scare2.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\Scare2.cs",
+              "RelativeToolTip": "Assets\\SCRIPTS\\Scare2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:34:17.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Starts.cs",
+              "DocumentMoniker": "D:\\backrooms\\Assets\\Starts.cs",
+              "RelativeDocumentMoniker": "Assets\\Starts.cs",
+              "ToolTip": "D:\\backrooms\\Assets\\Starts.cs",
+              "RelativeToolTip": "Assets\\Starts.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T07:28:28.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "JumpScare2.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\JumpScare2.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\JumpScare2.cs",
@@ -79,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "JumpScare.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\JumpScare.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\JumpScare.cs",
@@ -87,12 +137,11 @@
               "RelativeToolTip": "Assets\\SCRIPTS\\JumpScare.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T13:32:17.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T13:32:17.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Monster2.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\Monster2.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Monster2.cs",
@@ -104,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Portal2.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\Portal2.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\Portal2.cs",
@@ -116,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "MonsterPause.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\MonsterPause.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\MonsterPause.cs",
@@ -128,31 +177,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "gameover.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\gameover.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\gameover.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\gameover.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\gameover.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAcAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T05:43:39.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "PauseGame.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\PauseGame.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\PauseGame.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\PauseGame.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\PauseGame.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T05:43:05.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "monster.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\monster.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\monster.cs",
@@ -176,45 +225,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "portal.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\portal.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\portal.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\portal.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\portal.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T13:09:13.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerScene2.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\PlayerScene2.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\PlayerScene2.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\PlayerScene2.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\PlayerScene2.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAcwDAAAAAHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAJAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T11:22:57.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "player.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\player.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\player.cs",
               "ToolTip": "D:\\backrooms\\Assets\\SCRIPTS\\player.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\player.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAgwJgAAAAFAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwJoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T11:09:11.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "stamina.cs",
               "DocumentMoniker": "D:\\backrooms\\Assets\\SCRIPTS\\stamina.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\stamina.cs",

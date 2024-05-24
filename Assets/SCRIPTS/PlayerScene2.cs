@@ -25,6 +25,7 @@ public class PlayerScene2 : MonoBehaviour
     public GameObject jumpScare;
     public AudioSource audioSource;
     public AudioClip audioClip;
+    public bool canActivate = true;
     //public GameObject generatorOn;
 
 
@@ -119,6 +120,7 @@ public class PlayerScene2 : MonoBehaviour
         jumpScare.SetActive(true);
         audioSource.PlayOneShot(audioClip);
         StartCoroutine(TimeOnScreen2());
+        canActivate  = false;
         
 
 
@@ -136,8 +138,13 @@ public class PlayerScene2 : MonoBehaviour
         jumpScare.SetActive(false);
     }
 
+    IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(3);
+        canActivate = true;
+    }
 
-    
+
 
 
 

@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - PauseGame
     - PlayerScene2
     - Portal2
+    - Scare2
     - Starts
     - gameover
     - monster
@@ -139,6 +140,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Starts
     methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseGame
+    methodName: OnApplicationQuit
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Behaviour
     methodName: set_enabled
@@ -171,8 +175,68 @@ ScriptsOnlyBuild:
     methodName: set_enabled
   - assembly: Assembly-CSharp
     fullTypeName: PauseGame
+    methodName: OnApplicationQuit
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseGame
     methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: Starts
+    methodName: OnApplicationQuit
+  - assembly: Assembly-CSharp
+    fullTypeName: Starts
+    methodName: StartGame
   sceneClasses:
+    Assets/Scenes/EndGame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1676}
+    - Class: 114
+      Script: {instanceID: 1724}
+    - Class: 114
+      Script: {instanceID: 3186}
+    - Class: 114
+      Script: {instanceID: 3534}
+    - Class: 114
+      Script: {instanceID: 5888}
+    - Class: 114
+      Script: {instanceID: 6736}
+    - Class: 114
+      Script: {instanceID: 7680}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/GameOver.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -199,19 +263,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 3232}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 5888}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 7116}
+      Script: {instanceID: 7122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,8 +315,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 72
-      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -278,53 +340,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2096}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 3476}
+      Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 4264}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 4268}
     - Class: 114
-      Script: {instanceID: 5430}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5530}
+      Script: {instanceID: 5596}
     - Class: 114
-      Script: {instanceID: 5592}
+      Script: {instanceID: 5722}
     - Class: 114
-      Script: {instanceID: 5718}
+      Script: {instanceID: 5798}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5800}
     - Class: 114
-      Script: {instanceID: 5796}
+      Script: {instanceID: 5888}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 6110}
     - Class: 114
-      Script: {instanceID: 5898}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 7558}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 8174}
     - Class: 114
-      Script: {instanceID: 7550}
-    - Class: 114
-      Script: {instanceID: 8164}
-    - Class: 114
-      Script: {instanceID: 8364}
-    - Class: 114
-      Script: {instanceID: 8374}
-    - Class: 114
-      Script: {instanceID: 106654}
-    - Class: 114
-      Script: {instanceID: 162088}
+      Script: {instanceID: 8384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -391,27 +443,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 2428}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2950}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 4626}
+      Script: {instanceID: 4630}
     - Class: 114
-      Script: {instanceID: 4750}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 5046}
+      Script: {instanceID: 5050}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 5888}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 7116}
+      Script: {instanceID: 7122}
     - Class: 114
-      Script: {instanceID: 7672}
+      Script: {instanceID: 7680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -461,8 +513,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -478,43 +528,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 2594}
+      Script: {instanceID: 2096}
     - Class: 114
-      Script: {instanceID: 2668}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 3184}
+      Script: {instanceID: 2670}
     - Class: 114
-      Script: {instanceID: 3532}
+      Script: {instanceID: 3186}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 3534}
     - Class: 114
-      Script: {instanceID: 5530}
+      Script: {instanceID: 4096}
     - Class: 114
-      Script: {instanceID: 5592}
+      Script: {instanceID: 5368}
     - Class: 114
-      Script: {instanceID: 5718}
+      Script: {instanceID: 5534}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5596}
     - Class: 114
-      Script: {instanceID: 5796}
+      Script: {instanceID: 5722}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 5798}
     - Class: 114
-      Script: {instanceID: 5898}
+      Script: {instanceID: 5800}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 5888}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 5902}
     - Class: 114
-      Script: {instanceID: 8364}
+      Script: {instanceID: 6110}
     - Class: 114
-      Script: {instanceID: 106654}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 162088}
+      Script: {instanceID: 7222}
     - Class: 114
-      Script: {instanceID: 345986}
+      Script: {instanceID: 8136}
     - Class: 114
-      Script: {instanceID: 431910}
+      Script: {instanceID: 8374}
+    - Class: 114
+      Script: {instanceID: 265262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -537,6 +589,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 218
@@ -554,7 +608,7 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 1de770c7bcc3c7f1c03faba54cf27ce6
+      Hash: e7b4d6b66cbed33de2dbe5aa0d13c4b3
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: JumpScare
@@ -698,6 +752,12 @@ ScriptsOnlyBuild:
     className: DynamicShadowSettings
   - hash:
       serializedVersion: 2
+      Hash: c985bc1c34877480209e40ecceb072de
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseGame
+  - hash:
+      serializedVersion: 2
       Hash: ea1d7a985d10a604de40565fe37327b0
     assemblyName: Assembly-CSharp-firstpass
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -710,7 +770,7 @@ ScriptsOnlyBuild:
     className: PlatformSpecificContent
   - hash:
       serializedVersion: 2
-      Hash: 8079f621165c9c7654f8286b1dd14cd1
+      Hash: 96dafc8347365a2debe433d3a515939b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: monster
@@ -788,7 +848,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 17088af03845c3868ac7656f93960b71
+      Hash: bde31830734125cf1ef61d540eb3b8d1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerScene2
@@ -1188,6 +1248,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9436a040c7bde244d511a6c2ce5b18df
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MonsterPause
   - hash:
       serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
@@ -1706,6 +1772,12 @@ ScriptsOnlyBuild:
     className: DepthOfField
   - hash:
       serializedVersion: 2
+      Hash: c75d88fe5e7fe357d7f7ffb324dd25c4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JumpScare2
+  - hash:
+      serializedVersion: 2
       Hash: 0dd14e314956b0d0d83ffcffe60aa46f
     assemblyName: Assembly-CSharp
     namespaceName: TMPro
@@ -1902,6 +1974,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: dc44984d3acb871150a9e605d765155c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Monster2
   - hash:
       serializedVersion: 2
       Hash: bc75926bfd3609757f7bf33ff766f026
@@ -2180,6 +2258,12 @@ ScriptsOnlyBuild:
     className: TMP_TextSelector_B
   - hash:
       serializedVersion: 2
+      Hash: 9190180d0ff26b6f98499ce88910a68b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Portal2
+  - hash:
+      serializedVersion: 2
       Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -2192,7 +2276,7 @@ ScriptsOnlyBuild:
     className: AICharacterControl
   - hash:
       serializedVersion: 2
-      Hash: 98a374f07a88e7b81ebeffee3a8e463b
+      Hash: 82f72a6d1997dcd1254af78cbce8c768
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: portal
@@ -2468,32 +2552,15 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 1a046ac39f6ad9215ba1de9b34511b6d
+      Hash: 756e800048888901f41ae8bc275fb9b4
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PauseGame
-  - hash:
-      serializedVersion: 2
-      Hash: 9436a040c7bde244d511a6c2ce5b18df
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MonsterPause
-  - hash:
-      serializedVersion: 2
-      Hash: 42fc8ee647d0264d839c15c6bd17e4cf
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Monster2
-  - hash:
-      serializedVersion: 2
-      Hash: 9190180d0ff26b6f98499ce88910a68b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Portal2
+    className: Scare2
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/level2.unity
+  - Assets/Scenes/EndGame.unity
   playerPath: C:/Users/Carmen.Tiba/Desktop/caca/at.exe

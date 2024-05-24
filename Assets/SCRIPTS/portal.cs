@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class portal : MonoBehaviour
 {
+    public bool checkpoint = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class portal : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            checkpoint = true;
             SceneManager.LoadScene("level2");
         }
     }
